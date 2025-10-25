@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" width="data_width, initial-scale=1.o">
+    <title>FORMS</title>
+</head>
+
+<body>
+    <form action="#" , method="get" ,enctype="multipart/formdata" autocomplete="off">
+        <label for="fname" ,name="Firstname">First name</lable>
+            <input type="text" , id="fnmae" , name="Firstname" , placeholder="enter your first name" required>
+            <br>
+            <label for="Lname" ,name="Lastname">Enter your Last name</label>
+            <input type="text" , id="Lname" ,name="Lastname" ,placeholder="Enter your Last name" required>
+            <br>
+            <label for="Add" , name="Address">Enter your address</label>
+            <textarea name="address" id="Add" cols="50" rows="10"></textarea>
+
+            <!-- MULTIPLE SELECTIONS -->
+            <br>
+            <br>
+            <label for="fields">select fields</label>
+            <br>
+            <label for="stu">study</label>
+            <input type="checkbox" id="stu">
+            <label for="spo">sports</label>
+            <input type="checkbox" id="spo">
+            <label for="cult">cultural</label>
+            <input type="checkbox" id="cult">
+
+            <!-- choose only one option -->
+            <br>
+            <label for="genders">select Gender</label>
+            <br>
+            <label for="Male">male</label>
+            <input type="radio" id="male" name="genders">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="genders">
+            <label for="others">others</label>
+            <input type="radio" id="others" name="genders">
+
+            <!-- dropdowns -->
+            <br>
+            <lable for="state">select state</lable>
+            <select name="state" id="state">
+                <option value="ap">Andhra Pradesh</option>
+                <option value="tg">Telangana</option>
+                <option value="kl">kerala</option>
+                <option value="md">madhya pradesh</option>
+            </select>
+
+            <!-- By searching we can go for dropdowns -->
+            <br>
+            <label for="names">Names of person</label>
+            <input type="search" id="names" list="data" placeholder="enter your names">
+            <datalist id="names">
+                <option value="Khaju">
+                <option value="sameeera">
+                <option value="Likki">
+                <option value="Tabbu">
+                <option value="Revathi">
+                <option value="chandini">
+                <option value="kent">
+                <option value="joy">
+            </datalist>
+
+
+
+    </form>
+</body>
+
+</html>
